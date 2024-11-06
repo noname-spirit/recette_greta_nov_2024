@@ -13,3 +13,19 @@ ul,li {
     list-style: none;
 }
 
+/* mise en page => faire en sorte deavoir les deux colone une a coter de l'autre
+*/
+
+section{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+}
+
+section .col1{
+    width: 48%;
+}
+
+section .col2{
+    width: 48%;
+}
