@@ -29,3 +29,9 @@ section .col1{
 section .col2{
     width: 48%;
 }
+
+section .col2 ul {
+ display: flex;
+ justify-content: space-between;
+ margin: 10px 0;
+}
