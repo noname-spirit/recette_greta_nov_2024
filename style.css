@@ -1,6 +1,6 @@
 /* reset */
 
-h1,P,ul,li {
+h1,p,ul,li,figure {
     margin: 0;
     padding: 0;
 }
@@ -34,4 +34,18 @@ section .col2 ul {
  display: flex;
  justify-content: space-between;
  margin: 10px 0;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+}
+
+section form *{
+    margin: 15px 0;
+    padding: 8px 4px;
+}
+
+section form textarea{
+    height: 80px;
 }
