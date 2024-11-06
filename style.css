@@ -50,3 +50,9 @@ section form *{
 section form textarea{
     height: 80px;
 }
+
+section form button{
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
