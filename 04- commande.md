@@ -69,4 +69,4 @@ b4f92ef création des deux colonnes
 mais il est possible est possible en arriere pour voir ce qui avai ete realiser a l'epoque
 
 '''
-git checkout 6310025
+git checkout dd1c76c
