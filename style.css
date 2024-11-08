@@ -101,3 +101,19 @@ header ul li { /* espace entre les liens et taille des liens*/
 .gallerie article h2{
     flex:1; 
 }
+
+.newsletter{
+    display: inline;
+    flex-direction: raw;
+
+}
+
+.newsletter input{
+   width: 300px;
+    
+}
+
+.newsletter button{
+    margin-left: 20px;
+    padding: 20px;
+}
