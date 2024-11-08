@@ -36,22 +36,22 @@ section .col2 ul {
  margin: 10px 0;
 }
 
-section form {
+form {
     display: flex;
     flex-direction: column;
 }
 
-section form *{
+form > *:not(div){
     margin: 15px 0;
     padding: 8px 4px;
     border : 1px solid blue;
 }
 
-section form textarea{
+form textarea{
     height: 80px;
 }
 
-section form button{
+form button{
     background: blue;
     color: white;
     cursor: pointer;
@@ -101,4 +101,9 @@ width: 100%;
 .formulaire{
     width: 700px;
     margin: 0 auto;
+}
+
+
+form div textarea{
+    width: ;
 }
