@@ -96,34 +96,9 @@ width: 100%;
     flex:1;
 }
 
-/* menu deroulent */
+/* formulaire */
 
-.menuderoulentbtn {
-    background-color: skyblue;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding:20px;
-    margin-top:20px;
-}
-.menuderoulentbtn:hover {
-    background-color: blue;
-    }
-.menuderoulent {
-    position: relative;
-    display: inline-block;
-}
-.menuderoulent-child {
-    display: none;
-    background-color: skyblue;
-    min-width: 200px;
-}
-.menuderoulent-child a {
-    color: blue;
-    padding: 20px;
-    text-decoration: none;
-    display: block;
-}
-.menuderoulent:hover .dropdown-child {
-    display: block;
+.formulaire{
+    width: 700px;
+    margin: 0 auto;
 }
