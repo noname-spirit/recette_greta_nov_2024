@@ -1,72 +1,62 @@
-# plus en details
-
--travail
--git add . 
-- git commit -m " "
-
-#git add
-
+plus en détails
+travail
+git add .
+git commit -m
+git add
 git logiciel
-add action => snapshot ( prend une photo de toutes les modifications detectée)
-- ',' sur tout les fichiers
-souvent on veut garder les version que sur un fichier particulier :
-remplacer le ',' par un nom du fichier 
+add action => snapshot (prend une photo de toutes les modifications détectée)
+. sur tous les fichiers
+souvent on veut garder la version QUE sur un fichier particulier : remplacer le . par le nom du fichier
 
-- git add
-- git add --all
-- git add -A
+git add .
+git add --all
+git add -A
+tous les fichiers
 
-tous els fichiers
+git add style.css
+git add css/style.css
+uniquement le fichier mentionné
 
-git add styll.css
+git commit
+modifier le bouton => mettre sur fond blue / texte en blanc
 
-uniquement  le fichier styl.css
+message écrit après avoir saisit le git commit
 
-# git commit 
-modifier le bouton => mettre sur font blue / texte en blanc
+[main c01fe27] mise en forme bouton
+ 1 file changed, 6 insertions(+)
+main => branch principal du projet => la branch == fonctionnalité principale du projet
 
-message ecrite apres saisit le git commit 
+c01fe27 => identifiant unique pour la version => LE NUMERO de version => cet identifiant peut être ajouté dans TRELLO
 
-''' txt
-[main e7cabbf] mise en forme bouton
- 2 files changed, 17 insertions(+), 2 deletions(-)
- '''
+mise en forme bouton => message qui est associé au numéro de commit => faciliter la recherche / distinguer les commit (version)
 
- - main => branche principal du projet 
-        => la branche == focntionnalité principal du projet 
+1 file changed, 6 insertions(+)
 
-- e7cabbf => identifiant unique pour la version => le numero de version
-        => cet identifiant peut etre ajouté dans trello
-
-mise en forme bouton => message qui est associé au numero de comit 
-        => facilité la recherche / distinguer les commit ( version)
-
-- 1 1 gile changed,  insertion(+)
-- dans cette version 1 seul fihier modifié et 
-- par apport a la version precedente § ligne ajoutées 
-
-# gitk
-
-'''
+dans cette version 1 seul fichier modifié ET
+par rapport à la version précédente 6 lignes ajoutées
+gitk
 git log --oneline
-'''
+id      texte 
+id      (HEAD -> main) description 
+c01fe27 (HEAD -> main) mise en forme bouton
+eda5250 bordure sur les champs du formulaire
+6608376 exo 3
+18b2f38 exo 1
+6b88e57 mise en page
+98edb42 reset css
+e18f35d contenu de la 2ème colonne
+855d1bd contenu première colonne
+daec3e8 création deux colonnes
+je veux revenir en arrière (retour vers le futur)
+MAIS il est possible de revenir en arrière POUR VOIR ce qui avait été réalisé à l'époque
 
-id      texte
-id      (HEAD -> main) descrption 
-e7cabbf (HEAD -> main) mise en forme bouton
-0728f1e teste sauvegarde
-480cd06 ajustement
-77c41d1 misea jour 2
-dd1c76c exo1
-47e0bc5 mise en page
-01aa046 reset css
-4ced745 contenu de la 2eme colonne
-6310025 contenu premiere colonne
-b4f92ef création des deux colonnes
+retour en arrière jusqu'au numéro de version 18b2f38 tout le code que j'ai écrit après cette version va disparaitre
 
-# je veux revenir en arriere ( retour vers le futur )
+git checkout 18b2f38
+Attention
+=> revient dans le passé git checkout 18b2f38 => visualiser (déconseillé de modifier)
 
-mais il est possible est possible en arriere pour voir ce qui avai ete realiser a l'epoque
+=> si on veut revenir dans le passer ET modifier => IL FAUT créer une branch (monde parallèle) => on va travailler dessus => si tout est OK => fusionner la branch avec la branche principale (MERGE) => si non => supprimer la branch => revient dans l'état précédent
 
-'''
-git checkout dd1c76c
+programme de vendredi
+=> branch => connecté git AVEC github => comment travailler à plusieurs sur un projet (travail collaboratif)
