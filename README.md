@@ -39,4 +39,19 @@ git commit -m "message
 git push
 ```
 
-code dans un paragraphe `git commit``
+code dans un paragraphe ``git commit``
+
+##liste complete de balises html geree par markdown
+
+```
+h1 h2 h3 h4 h5 h6
+p br
+ul li ol li
+img
+a
+pre code
+<input type="chekbox">
+hr
+```
+
+
