@@ -28,3 +28,6 @@ lien hypertexte
 [lien vers google](https://www.google.fr)
 
 ## titre niveau 3
+
+![](mario.jpg)
+
