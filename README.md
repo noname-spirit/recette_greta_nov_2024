@@ -31,3 +31,12 @@ lien hypertexte
 
 ![](mario.jpg)
 
+## affciher des commandes
+
+````
+git add . 
+git commit -m "message
+git push
+```
+
+code dans un paragraphe `git commit``
